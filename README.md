@@ -91,7 +91,7 @@ This task sets up a GitHub Actions workflow for automatic deployments whenever c
 
 1.  **GitHub Secrets Configuration:**
 
-    Make sure the following AWS credential environment variables are set as secrets in your GitHub repository:
+    Make sure you have an ECR repo called `task-3-building-ci-cd` created. Also ensure that the following AWS credential environment variables are set as secrets in your GitHub repository:
 
     - `AWS_ACCESS_KEY_ID`
     - `AWS_DEFAULT_REGION`
