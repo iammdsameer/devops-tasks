@@ -44,10 +44,11 @@ aws sts get-caller-identity
 
 This task involves deploying the core infrastructure using AWS CDK.
 
-1.  **Navigate to the CDK directory:**
+1.  **Navigate to the CDK directory and install deps:**
 
     ```bash
     cd eks-s3
+    npm install
     ```
 
 2.  **Bootstrap CDK to your AWS Account:**
